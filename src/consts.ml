@@ -1,5 +1,5 @@
 (* The set of directories to search for includes *)
-let include_directories : string list ref = ref ["."]
+let include_directories : string list ref = ref ["."; ""]
 
 (* The initial matching depth of the refinement tree *)
 let match_count : int ref = ref 0
